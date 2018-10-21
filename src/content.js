@@ -18,7 +18,7 @@ export default {
 	"placeholder": "enter your seed",
 	"validText": "Paper Wallet page does not store or send your data anywhere. During seed generation or split we recommend disconnecting your computer from the Internet.",
 	"invalidSeed": "Invalid seed",
-	"copyright": "Copyright © 2018 HashEx, Inc. in cooperation with Elastoo.",
+	"copyright": "Copyright © 2018 HashEx, Inc. in cooperation with Elastoo",
 	"pagesToGenerateLabel": "pages to generate",
 	"generatedPagesLabel": "generated pages",
 	"pagesToGenerateCaption": "How many pages will be generated from your seed phrase.",
@@ -40,5 +40,6 @@ export default {
 	"lengthErrorText": "Please enter either 12, 15, 21 or 24 words via single space",
 	"wrongNumberOfWordsErrorText": "Wrong number of words in cards",
 	"notEnoughWordsErrorText": "Not enough words",
-	"mistakesOnCardErrorText": "One or more cards have mistakes"
+	"mistakesOnCardErrorText": "One or more cards have mistakes",
+	"restore": "restore"
 }

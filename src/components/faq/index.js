@@ -15,8 +15,8 @@ const FAQItem = ({ header, children }) => {
 
 FAQItem.propTypes = {
 	header: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
-	children: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
-}
+	children: PropTypes.oneOfType([PropTypes.string, PropTypes.element])
+};
 
 class FAQ extends React.Component {
 	render() {
@@ -29,7 +29,11 @@ class FAQ extends React.Component {
 					<FAQItem header="What is it?">
 						Paper Wallet is the safest way to store your seed phrase
 						and private keys. It was designed by{" "}
-						<a href="https://hashex.org" target="_blank" rel="noopener noreferrer">
+						<a
+							href="https://hashex.org"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							HashEx
 						</a>{" "}
 						in cooperation with{" "}
@@ -67,9 +71,10 @@ class FAQ extends React.Component {
 						>
 							here
 						</a>
+						.
 					</FAQItem>
 					<FAQItem header="Where I can check the source code?">
-						You can check source the source code at{" "}
+						You can check the source code at{" "}
 						<a
 							href="https://github.com/HashEx/paperwallet"
 							target="_blank"
@@ -78,6 +83,11 @@ class FAQ extends React.Component {
 							GitHub
 						</a>
 						.
+					</FAQItem>
+					<FAQItem header="Is the website running on the same code?">
+						Yes. Our website is hosted on GitHub Pages. So you can
+						be 100% sure that it's running on the same source code
+						located in our repository.
 					</FAQItem>
 					<FAQItem header="How it works?">
 						Now we implement only one redundant encryption algorithm
