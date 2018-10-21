@@ -1,0 +1,15 @@
+.icon-arrow {
+  width: 13px;
+  height: 8px;
+}
+
+.icon-arrow-restore-seed {
+  width: 18px;
+  height: 10px;
+  opacity: 0;
+}
+
+.icon-arrow-restore-seed--valid {
+  fill: #379299;
+  opacity: 1;
+}

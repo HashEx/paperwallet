@@ -19,16 +19,24 @@ For building Paper Wallet, following packages are required (note, that this can 
 
 Clone the repository:
 
-`$ git clone https://github.com/HashEx/paperwallet.git`
+```
+$ git clone https://github.com/HashEx/paperwallet.git
+```
 
 Install dependencies:
 
-`$ npm install`
+```
+$ npm install
+```
  
 or 
 
-`$ yarn install`
+```
+$ yarn install
+```
  
 Run Paper Wallet:
 
-`npm start`
+```
+npm start
+```

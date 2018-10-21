@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /print
+Sitemap: https://paper-wallet.me/sitemap.xml
+Host: https://paper-wallet.me

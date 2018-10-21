@@ -1,0 +1,66 @@
+.btn {
+    background-image: none;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    border-radius: 1px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.17);
+    line-height: 3.43;
+    font-size: 14px;
+    line-height: 29px;
+}
+
+@media(min-width: 750px) {
+    .btn {
+        font-size: 28px;
+        height: 64px;
+        line-height: 64px;
+        line-height: 1.71;
+    }
+}
+
+.btn--green {
+    width: 136px;
+    background-image: linear-gradient(to bottom, #74b2b6, #669b9f);
+    color: #fff;
+}
+
+@media(min-width: 750px) {
+    .btn--green {
+        width: 270px;
+    }
+}
+
+.btn--white {
+    width: 80px;
+    background: #e8f1f2;
+    color: #626566;
+}
+
+@media(min-width: 750px) {
+    .btn--white {
+        width: 160px;
+    }
+}
+
+.btn--white:hover {
+    background-image: linear-gradient(#e7bebe, #e7bebe), linear-gradient(to bottom, #74b2b6, #669b9f);
+    color: #61585a;
+}
+
+.btn--valid-seed {
+    position: relative;
+    top: -21px;
+}
+
+@media(min-width:750px) {
+    .btn--valid-seed {
+        top: -34px;
+    }
+}
+
+.btn[disabled]{
+    opacity: 0.7;
+    cursor: not-allowed;
+}

@@ -1,0 +1,17 @@
+.faq {
+	padding: 30px 15px;
+	color: rgba(0, 0, 0, 0.91);
+}
+
+.faq-item {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.faq-item__header {
+	font-size: 26px;
+}
+
+.faq-item__text {
+	line-height: 1.33;
+}

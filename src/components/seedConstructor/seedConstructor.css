@@ -1,0 +1,35 @@
+.seed-constructor {
+  background-color: #fff;
+}
+
+.splitter__container {
+  text-align: center;
+  position: relative;
+}
+
+/*@media(min-width: 750px) {
+  .splitter__container {
+    padding-bottom: 70px;
+  }
+}
+
+@media(min-width: 1200px) {
+  .splitter__container {
+    padding-bottom: 81px;
+  }
+}*/
+
+.footer {
+  padding: 15px;
+  background-color: #5b636a;
+  box-shadow: inset 0 0 33px 0 rgba(0, 0, 0, 0.03);
+  color: #fff;
+  font-family: OpenSans, sans-serif;
+  font-size: 12px;
+}
+
+@media(min-width: 1600px) {
+  .footer {
+    padding: 15px 0;
+  }
+}

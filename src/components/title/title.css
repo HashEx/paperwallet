@@ -1,0 +1,38 @@
+.title {
+    margin-top: 0;
+    text-align: right;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    color: #132029;
+    position: relative;
+    z-index: 1;
+    line-height: 1.75;
+    letter-spacing: -1.5px;
+    padding: 0 24px;
+    margin-bottom: -16px;
+}
+
+@media(min-width: 750px) {
+    .title {
+        font-size: 64px;
+        line-height: 0.88;
+        padding: 0 65px;
+        margin-bottom: 0;
+        letter-spacing: -3px;
+        margin-bottom: -3px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .title {
+        padding: 0;
+    }
+}
+
+.title a {
+	text-decoration: none;
+	color: inherit;
+}

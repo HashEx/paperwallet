@@ -1,0 +1,237 @@
+section {
+  height: 1;
+}
+
+.print-container {
+  font-family: Arial, sans-serif;
+  color: #000;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+.print-container * {
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+.sheet__header {
+  height: 123px;
+  background-color: #f3f3f3 !important;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+  padding-top: 18px;
+  box-sizing: border-box;
+  padding-left: 72px;
+}
+
+.sheet__header-title {
+  font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 0.88;
+  letter-spacing: -3px;
+  color: #60686e;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.sheet__header-page{
+  font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.72);
+  margin: 0;
+}
+
+.sheet__words {
+  height: 325px;
+  padding-top: 60px;
+  box-sizing: border-box;
+  padding-left: 72px;
+}
+
+.sheet__words-column {
+  width: 50%;
+  float: left;
+}
+
+.sheet__word {
+  font-family: Charter;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.8;
+  letter-spacing: 0.9px;
+  color: rgba(0, 0, 0, 0.91);
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+.sheet__word-number {
+  font-family: Charter;
+  color: rgba(134, 134, 134, 0.91);
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+.print-container h4 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #000;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+.manual {
+  /*
+    position: absolute;
+    bottom: 0;
+    margin-left: 10%;
+    margin-top: 80px;
+    width: 80%;
+    height: 200px;
+  */
+}
+
+.manual__text {
+  background-color: #f3f3f3 !important;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  font-size: 16px;
+  padding-left: 72px;
+  padding-right: 59px;
+}
+
+.manual h4 {
+  font-family: inherit;
+  font-weight: normal;
+}
+
+.manual__cards {
+  padding-left: 72px;
+  padding-right: 59px;
+}
+
+.manual__cards-title {
+  margin-top: 30px;
+  margin-bottom: 28px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.75;
+  color: rgba(0, 0, 0, 0.91);
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+.sheet {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  page-break-after: always;
+}
+
+/** Paper sizes **/
+body.A3           .sheet { width: 297mm; height: 419mm }
+body.A3.landscape .sheet { width: 420mm; height: 296mm }
+body.A4           .sheet { width: 210mm; height: 296mm }
+body.A4.landscape .sheet { width: 297mm; height: 209mm }
+body.A5           .sheet { width: 148mm; height: 209mm }
+body.A5.landscape .sheet { width: 210mm; height: 147mm }
+
+/** Padding area **/
+.sheet.padding-10mm { padding: 10mm }
+.sheet.padding-15mm { padding: 15mm }
+.sheet.padding-20mm { padding: 20mm }
+.sheet.padding-25mm { padding: 25mm }
+
+/** For screen preview **/
+@media screen {
+  body.A3,
+  body.A4,
+  body.A5 {
+    background: #e0e0e0
+  }
+  .sheet {
+    background: white;
+    box-shadow: 0 .5mm 2mm rgba(0,0,0,.3);
+    margin: 5mm;
+  }
+}
+
+/** Fix for Chrome issue #273306 **/
+@media print {
+           body.A3.landscape { width: 420mm }
+  body.A3, body.A4.landscape { width: 297mm }
+  body.A4, body.A5.landscape { width: 210mm }
+  body.A5                    { width: 148mm }
+
+
+  .main {
+    padding: 0 !important;
+  }
+}
+
+.print-cards {
+  margin-bottom: 30px;
+}
+
+.print-card {
+  display: inline-block;
+  box-sizing: border-box !important;
+  width: 25%;
+  vertical-align: top;
+}
+
+.print-card__number {
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgba(129, 129, 129, 0.91);
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+.print-card__inner {
+  min-height: 170px;
+  font-size: 12px;
+  /*padding: 5px;
+  border: 1px solid #dfe4e0;*/
+}
+
+.print-card__word {
+  color: rgba(0, 0, 0, 0.91);
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.print-card__word span{
+  color: rgba(133, 133, 133, 0.91);
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+.print-seed {
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.91);
+  color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+.print-splitter {
+  background-color: #c3c3c3;
+  border: solid 1px #c3c3c3;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
