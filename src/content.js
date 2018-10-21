@@ -18,7 +18,7 @@ export default {
 	"placeholder": "enter your seed",
 	"validText": "Paper Wallet page does not store or send your data anywhere. During seed generation or split we recommend disconnecting your computer from the Internet.",
 	"invalidSeed": "Invalid seed",
-	"copyrigt": "Copyright © 2018 HashEx, Inc. in cooperation with Elastoo.",
+	"copyright": "Copyright © 2018 HashEx, Inc. in cooperation with Elastoo.",
 	"pagesToGenerateLabel": "pages to generate",
 	"generatedPagesLabel": "generated pages",
 	"pagesToGenerateCaption": "How many pages will be generated from your seed phrase.",
