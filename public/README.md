@@ -38,5 +38,5 @@ $ yarn install
 Run Paper Wallet:
 
 ```
-npm start
+$ npm start
 ```
