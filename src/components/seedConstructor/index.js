@@ -11,6 +11,7 @@ import {
   checkSeedLength,
   englishValid
 } from "../../lib/seedHelpers";
+import gtag from "../../utils/gtag";
 
 import PagesSelect from "../pagesSelect";
 import SplittedSeed from "../splittedSeed";
@@ -20,10 +21,17 @@ import Button from "../button";
 
 import "./seedConstructor.css";
 
+const onRecoverClick = e => {
+  gtag('recover', {
+    event_category: 'Elements',
+    event_action: 'Recover'
+  });
+}
+
 const RecoverLink = () => (
   <div className="container">
     <div className="restore__container">
-      <Link to="/recover/" className="restore__link">
+      <Link to="/recover/" className="restore__link" onClick={onRecoverClick}>
         <Svg className="icon-arrow" name="icon-arrow" />
         <span className="restore__title">recover your seed</span>
       </Link>
@@ -91,6 +99,10 @@ class SeedConstructor extends React.Component {
     } else if (!validLength && value.length > 0) {
       this.setState({error: LENGTH_ERROR_TEXT});
     } else {
+      gtag('split', {
+        event_category: 'Elements',
+        event_action: 'Split'
+      });
       this.onSplitSeed();
     }
   };
@@ -108,6 +120,10 @@ class SeedConstructor extends React.Component {
   onPrint = () => {
     const { pages, seed } = this.state;
     const { value } = this.props;
+    gtag('print', {
+      event_category: 'Elements',
+      event_action: 'Print'
+    });
     const wordsCount = value.trim().split(" ").length;
     sessionStorage.setItem("cards_count", pages);
     sessionStorage.setItem("words_count", wordsCount);

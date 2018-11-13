@@ -11,6 +11,8 @@ import {
 
 import classNames from "../../lib/classNames";
 
+import gtag from "../../utils/gtag";
+
 import content from "../../content";
 
 import Caption from "../caption";
@@ -86,6 +88,10 @@ class SeedContainer extends React.Component {
   onGenerate = () => {
     const value = getRandomSeed();
     this.setState({value});
+    gtag('auto-generate', {
+      event_category: 'Elements',
+      event_action: 'Autogenerate'
+    });
     if(this.props.onChange){
       this.props.onChange(value);
     }
