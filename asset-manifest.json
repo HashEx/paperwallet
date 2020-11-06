@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.3ba3e30a.chunk.css",
-  "main.js": "/static/js/main.ab8d0382.chunk.js",
-  "main.js.map": "/static/js/main.ab8d0382.chunk.js.map",
-  "static/js/1.1f49a2e0.chunk.js": "/static/js/1.1f49a2e0.chunk.js",
-  "static/js/1.1f49a2e0.chunk.js.map": "/static/js/1.1f49a2e0.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/App.css": "/static/media/HelveticaNeue.5754a536.ttf",
-  "static/css/main.3ba3e30a.chunk.css.map": "/static/css/main.3ba3e30a.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.44d5c2d5847580ed774146a405c84f8c.js": "/precache-manifest.44d5c2d5847580ed774146a405c84f8c.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/paperwallet/static/css/main.2386e702.chunk.css",
+  "main.js": "/paperwallet/static/js/main.81b3bcd1.chunk.js",
+  "main.js.map": "/paperwallet/static/js/main.81b3bcd1.chunk.js.map",
+  "static/js/1.329ae3d0.chunk.js": "/paperwallet/static/js/1.329ae3d0.chunk.js",
+  "static/js/1.329ae3d0.chunk.js.map": "/paperwallet/static/js/1.329ae3d0.chunk.js.map",
+  "runtime~main.js": "/paperwallet/static/js/runtime~main.114c4399.js",
+  "runtime~main.js.map": "/paperwallet/static/js/runtime~main.114c4399.js.map",
+  "static/media/App.css": "/paperwallet/static/media/HelveticaNeue.5754a536.ttf",
+  "static/css/main.2386e702.chunk.css.map": "/paperwallet/static/css/main.2386e702.chunk.css.map",
+  "index.html": "/paperwallet/index.html",
+  "precache-manifest.70a171478f27687eb53f38332c86a0f9.js": "/paperwallet/precache-manifest.70a171478f27687eb53f38332c86a0f9.js",
+  "service-worker.js": "/paperwallet/service-worker.js"
 }
