@@ -2,7 +2,7 @@
   "name": "paper-wallet-react",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://paper-wallet.me/",
+  "homepage": "https://hashex.github.io/paperwallet",
   "dependencies": {
     "bip39": "^2.5.0",
     "react": "^16.4.1",
