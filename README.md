@@ -40,3 +40,9 @@ Run Paper Wallet:
 ```
 $ npm start
 ```
+
+or
+
+```
+$ yarn start
+```
