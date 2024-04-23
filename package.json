@@ -33,7 +33,7 @@
     "cross-env": "^5.2.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^5.0.0",
     "react-snap": "^1.19.0",
     "sinon": "^6.3.5"
   },
